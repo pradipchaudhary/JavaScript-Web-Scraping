@@ -1,0 +1,111 @@
+== Changelog ==
+
+= 1.2.4 - July 20, 2021 =
+- Updated: Style and enqueue for different pages.
+- Modified: Theme notice will be displayed only in the dashboard page.
+- Removed: Unwanted files and folders.
+
+
+= 1.2.3 - May 08, 2021 =
+- Updated: readme.txt file
+
+
+= 1.2.2 - May 06, 2021 =
+- Updated: Demo data base URL
+
+
+= 1.2.1 - May 23, 2020 =
+- Fix: Error in simple mega menu
+
+
+= 1.2.0 - April 13, 2020 =
+- Added: Dashboard widget for displaying blog posts from https://themebeez.com/blog/
+- Added: Changelog to about page tab
+- Added: WPTRT Admin Notices library
+
+
+= 1.1.9 - January 15, 2019 =
+- Removed: Orchid store mega menu js
+- Removed: Public css & js files
+
+
+= 1.1.8 - December 22, 2019 ==
+- Fix: Issue with mega menu columns at orchid store pro
+
+
+= 1.1.7 - December 3, 2019 ==
+- Minor update
+
+
+= 1.1.6 - December 1, 2019 ==
+- Demo import support for Orchid Store Pro
+
+
+= 1.1.5 - November 3, 2019 ==
+- Mega menu support for child themes of Orchid Store theme.
+
+
+= 1.1.4 - September 26, 2019 ==
+- Added support for Orchid Store theme.
+
+
+= 1.1.3 - July 29, 2019 ==
+- Added support for Fascinate theme.
+
+
+= 1.1.2 - March 6, 2019 ==
+- Added support for Cream Blog Lite and Cream Blog Pro
+
+
+= 1.1.1 - April 16, 2019 ==
+- Added one more demo import support for Royale News Pro
+
+
+= 1.1.0 - April 15, 2019 ==
+- Added support for Royale News Lite theme
+- Pro themes links updated
+
+
+= 1.0.9 - March 07, 2019 ==
+- Added support for Cream Magazine theme
+- Other fixes
+
+
+= 1.0.8 - February 25, 2019 ==
+- Minor Issues Fixed
+- Added support for pro themes
+
+
+= 1.0.7 - January 8, 2019 ==
+- Issue with get started button on welcome section of admin page is fixed
+
+
+= 1.0.6 - January 8, 2019 ==
+- Addition of inbuilt demo importer
+- OCDI folder and all the demo contents have been removed
+
+
+= 1.0.5 - December 14, 2018 ==
+- Changed: PLUGIN_NAME_VERSION to THEMEBEEZTOOLKIT_VERSION
+- Changed: Theme info page demo data import tab message
+
+
+= 1.0.4 - November 29, 2018 ==
+- Fix: Issue occuring when child theme gets activated
+
+
+= 1.0.3 - November 13, 2018 ==
+- Fix: This plugin hasn’t been tested with the latest 3 major releases of WordPress issue
+- Fix: Verion numbers
+
+
+== 1.0.2 - November 12, 2018 ==
+- Theme info and demo content files added for themes Royale News, One Hive and StyleBlog.
+
+
+== 1.0.1 - October 13, 2018 ==
+- Fix banner image & icon
+
+
+== 1.0.0 - October 12, 2018 ==
+- Initial release 

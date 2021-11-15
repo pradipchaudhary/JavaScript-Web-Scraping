@@ -1,0 +1,100 @@
+/* Icon Picker CSS */
+.menu-icons-picker-wrapper {
+
+	display: none;
+	height: 200px;
+    overflow: auto;
+}
+
+.menu-icons-picker-wrapper .menu-icons-picker-inner-wrapper {
+
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.menu-icons-picker-wrapper .menu-icons-picker-inner-wrapper .menu-icon-picker-btn {
+
+	height: 46px;
+	width: 45px;
+    font-size: 16px;
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+}
+
+.menu-icon-input-fields-holder label,
+.mega-menu-group-title,
+.mega-menu-sub-group-title {
+
+    font-style: italic;
+    color: #666;
+}
+
+.mega-menu-item-field {
+
+    display: none;
+}
+
+.menu-icon-input {
+
+    display: none;
+}
+
+.menu-icon-holder,
+.menu-select-icon,
+.menu-remove-icon {
+
+    text-align: center;
+    border: 1px solid #eeeeee;
+}
+
+.menu-icon-holder {
+    
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.menu-select-icon,
+.menu-remove-icon {
+
+    padding: 6px 10px;
+    color: #fff;
+}
+
+.menu-select-icon {
+
+    background-color: #4CAF50;
+}
+
+.menu-remove-icon {
+
+    background-color: #f44336;
+}
+
+li.menu-item-depth-0 span.mega-menu-group-title {
+
+    display: inherit;
+}
+
+li.menu-item-depth-0 span.mega-menu-sub-group-title {
+
+    display: none;
+}
+
+li.menu-item-depth-1 span.mega-menu-group-title {
+
+    display: none;
+}
+
+li.menu-item-depth-1 span.mega-menu-sub-group-title {
+
+     display: inherit;
+}
+
+li.menu-item-depth-0 .mega-menu-item-field,
+li.menu-item-depth-1 .mega-menu-item-field {
+
+    display: block;
+}

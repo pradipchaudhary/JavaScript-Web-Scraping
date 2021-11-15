@@ -1,0 +1,58 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ .themebeez-toolkit-notice {
+
+    background: #e9eff3;
+    border: 10px solid #fff;
+    color: #608299;
+    padding: 30px 10px;
+    text-align: center;
+    box-shadow: none;
+    text-align: center;
+    padding: 25px;
+    position: relative;
+}
+
+.TT_about-description {
+	
+	position: relative;
+	background: #fff;
+	padding: 50px 60px;
+	margin-bottom: 30px;
+}
+
+.TT_about-description:after,
+.TT_about-description:before {
+
+	content: '\f122';
+	font-family: 'dashicons';
+	position: absolute;
+	font-style: normal;
+	font-size: 32px;
+}
+
+.TT_about-description:before {
+
+	left: 20px;
+    top: 20px;
+}
+
+.TT_about-description:after {
+
+	bottom: 20px;
+	right: 20px;
+	-webkit-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.TT_about-description ul {
+
+	list-style: disc;
+	margin: 1em 1em 1em 3em;
+}

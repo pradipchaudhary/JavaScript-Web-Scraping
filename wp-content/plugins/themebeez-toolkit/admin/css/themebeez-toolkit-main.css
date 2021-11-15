@@ -1,0 +1,118 @@
+/* Overriding WordPress native styles */
+* {
+	box-sizing: border-box;
+}
+.et h2 {
+	text-align: inherit;
+}
+
+.et h2:first-child,
+.et h3:first-child {
+	margin-top: 0;
+}
+
+.et hr {
+	margin: 2.62em 0;
+}
+
+.feature-section + hr {
+	margin-top: 0;
+}
+
+#wpbody select {
+	height: auto;
+	padding: .62em;
+	line-height: inherit;
+}
+
+.et .notice {
+	display: block !important;
+	margin-top: 1.4em;
+	margin-bottom: 0;
+}
+
+.three-col .col {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	float: left;
+	width: 30%;
+}
+
+
+/* Plugin elements */
+
+.TT__demo-import-files {
+	width: 100%;
+}
+
+.TT__demo-import-preview-image-message {
+	font-style: italic;
+}
+
+/* Plugin title */
+
+.TT__title:before {
+	width: auto;
+	height: auto;
+	font-size: inherit;
+}
+
+/* Plugin intro text */
+
+.TT__intro-text ul {
+	padding: 0 4%;
+	list-style-type: square;
+}
+
+/* Plugin multi select import and Plugin file upload containers */
+
+
+.TT__file-upload {
+	margin: 0;
+	margin-bottom: -1px;
+}
+
+.TT__file-upload span {
+	font-size: .81em;
+	font-weight: normal;
+	opacity: .66;
+}
+
+.TT__demo-import-notice:not(:empty) {
+	border: 0;
+	border-left: 4px solid #00a0d2;
+	-webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}
+
+[dir="rtl"] .TT__demo-import-notice:not(:empty) {
+	border: 0;
+	border-right: 4px solid #00a0d2;
+}
+
+/* Plugin button */
+
+.TT__button-container {
+	margin-top: 1.62em;
+}
+
+/* AJAX loader */
+
+.TT__ajax-loader {
+	font-size: 1.5em;
+	display: none;
+}
+
+.TT__ajax-loader .spinner {
+	display: inline-block;
+	float: none;
+	visibility: visible;
+	margin-bottom: 6px;
+}
+
+
+
+
+.TT__multi-select-import .theme-browser .theme .theme-name {
+	height: auto;
+}
