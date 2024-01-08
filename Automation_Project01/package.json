@@ -1,0 +1,15 @@
+{
+    "name": "automation_project01",
+    "version": "1.0.0",
+    "description": "Hackerrank website automation practice.",
+    "main": "hk.js",
+    "dependencies": {
+        "puppeteer": "^21.7.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Pradip Chaudhary",
+    "license": "ISC"
+}
