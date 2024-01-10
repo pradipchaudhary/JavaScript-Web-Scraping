@@ -14,7 +14,7 @@ import puppeteer from "puppeteer-core";
 
     await page.waitForSelector('input[type="radio"]');
     await page.click('input[type="radio"]');
-    await page.click('span[role="checkbox"]');
+    await page.click('span[role="ch');
 
     await page.screenshot({ path: "./screens/sample.jpg" });
 
