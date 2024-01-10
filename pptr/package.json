@@ -11,6 +11,8 @@
     "author": "Pradip Chaudhary",
     "license": "ISC",
     "dependencies": {
-        "puppeteer": "^21.7.0"
+        "puppeteer": "^21.7.0",
+        "puppeteer-extra": "^3.3.6",
+        "puppeteer-extra-plugin-recaptcha": "^3.6.8"
     }
 }

@@ -4,7 +4,19 @@
 // 3. click reCapatch 'span[id="recaptcha-anchor"]' button
 // 4. click sing in button 'button[type="submit"]'
 
-import puppeteer from "puppeteer-core";
+// import puppeteer from "puppeteer-core";
+import puppeteer from "puppeteer-extra";
+import RecaptchaPlugin from "puppeteer-extra-plugin-recaptcha";
+// const RecaptchaPlugin = require("puppeteer-extra-plugin-recaptcha");
+puppeteer.use(
+    RecaptchaPlugin({
+        provider: {
+            id: "2captcha",
+            token: "903604ccf4e735c798a6ff6c106cdf89", // REPLACE THIS WITH YOUR OWN 2CAPTCHA API KEY ⚡
+        },
+        visualFeedback: true, // colorize reCAPTCHAs (violet = detected, green = solved)
+    })
+);
 
 (async () => {
     const browser = await puppeteer.launch({
@@ -21,16 +33,15 @@ import puppeteer from "puppeteer-core";
     await page.goto(pageUrl);
 
     //     await page.waitForSelector('input[id="username"]');
-    await page.type('input[id="l-form-username"]', username, { delay: 50 });
-    await page.type('input[id="l-form-password"]', password, { delay: 50 });
-    // await page.waitForSelector("div >#recaptcha");
-    // const checkbox = await page.$("div >#recaptcha");
-    // console.log(checkbox);
-    // await page.click('span[role="checkbox"]');
-    const isCaptchaPresent = await page.evaluate(() => {
-        return document.querySelector(".g-recaptcha") !== null;
-    });
-    console.log("Is CAPTCHA present:", isCaptchaPresent);
+    // await page.type('input[id="l-form-username"]', username, { delay: 50 });
+    // await page.type('input[id="l-form-password"]', password, { delay: 50 });
+
+    await page.solveRecaptchas();
+
+    await Promise.all([
+        page.waitForNavigation(),
+        page.click(`button[type="submit"]`),
+    ]);
     await page.screenshot({ path: "full_page_screenshot.png", fullPage: true });
 
     // await page.screenshot({ path: "./screens/sample.jpg" });
