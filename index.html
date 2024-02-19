@@ -12,12 +12,867 @@
          <h2 class="project-tagline">
             JavaScript Web Scraping: Uncover, Transform, Succeed.
          </h2>
-         <a href="https://bhatinbati.github.io/bhatinbati/" class="btn"
+         <a
+            href="https://bhatinbati.github.io/bhatinbati/"
+            target="_blank"
+            class="btn"
             >View on GitHub</a
          >
       </header>
       <main id="content" class="main-content" role="main">
-         <h1>JavaScript Web Scraping</h1>
+         <div class="content">
+            <h1 id="javascript-web-scraping">JavaScript Web Scraping</h1>
+            <hr />
+            <p>
+               This list contains JavaScript libraries related to web scraping
+               and data processing. The content of that list is focused on libs
+               that could be run in nodejs (without real web-browser).
+            </p>
+            <ul>
+               <li>
+                  <a href="#javascript-web-scraping">JavaScript Web Scraping</a>
+                  <ul>
+                     <li><a href="#network">Network</a></li>
+                     <li>
+                        <a href="#web-scraping-frameworks"
+                           >Web-scraping Frameworks</a
+                        >
+                     </li>
+                     <li><a href="#htmlxml-parsing">HTML/XML Parsing</a></li>
+                     <li><a href="#text-processing">Text processing</a></li>
+                     <li>
+                        <a href="#specific-formats-processing"
+                           >Specific Formats Processing</a
+                        >
+                     </li>
+                     <li>
+                        <a href="#natural-language-processing"
+                           >Natural Language Processing</a
+                        >
+                     </li>
+                     <li>
+                        <a href="#browser-automation-and-emulation"
+                           >Browser automation and emulation</a
+                        >
+                     </li>
+                     <li><a href="#multiprocessing">Multiprocessing</a></li>
+                     <li><a href="#queue">Queue</a></li>
+                     <li><a href="#email">Email</a></li>
+                     <li>
+                        <a href="#url-and-network-address-manipulation"
+                           >URL and Network Address Manipulation</a
+                        >
+                     </li>
+                     <li>
+                        <a href="#web-content-extracting"
+                           >Web Content Extracting</a
+                        >
+                     </li>
+                     <li><a href="#asynchronous">Asynchronous</a></li>
+                     <li><a href="#websocket">WebSocket</a></li>
+                     <li><a href="#dns-resolving">DNS Resolving</a></li>
+                     <li><a href="#computer-vision">Computer Vision</a></li>
+                     <li><a href="#proxy-server">Proxy Server</a></li>
+                     <li>
+                        <a href="#other-javascript-lists"
+                           >Other JavaScript Lists</a
+                        >
+                     </li>
+                     <li><a href="#data-structure">Data Structure</a></li>
+                  </ul>
+               </li>
+            </ul>
+            <h2 id="network">Network</h2>
+            <ul>
+               <li>
+                  <a href="https://github.com/request/request">request</a> -
+                  Simplified HTTP request client.
+               </li>
+               <li>
+                  <a href="https://github.com/mattcg/socks5-http-client"
+                     >socks5-http-client</a
+                  >
+                  - SOCKS v5 HTTP client implementation in JavaScript for
+                  Node.js
+               </li>
+               <li>
+                  <a href="https://github.com/cujojs/rest">rest</a> - RESTful
+                  HTTP client for JavaScript
+               </li>
+               <li>
+                  <a href="https://github.com/hapijs/wreck">wreck</a> - HTTP
+                  Client Utilities
+               </li>
+               <li>
+                  <a href="https://github.com/sindresorhus/got">got</a> -
+                  Simplified HTTP requests
+               </li>
+               <li>
+                  <a href="https://github.com/bitinn/node-fetch">node-fetch</a>
+                  - A light-weight module that brings window.fetch to Node.js
+               </li>
+               <li>
+                  <a href="https://github.com/mikeal/bent">bent</a> - Functional
+                  HTTP client for Node.js w/ async/await
+               </li>
+               <li>
+                  <a href="https://github.com/axios/axios">axios</a> - Promise
+                  based HTTP client for the browser and node.js
+               </li>
+               <li>
+                  <a href="https://github.com/visionmedia/superagent"
+                     >superagent</a
+                  >
+                  - Ajax for Node.js and browsers (JS HTTP client)
+               </li>
+               <li>
+                  <a href="https://github.com/node-modules/urllib">urllib</a> -
+                  Request HTTP(s) URLs in a complex world
+               </li>
+               <li>
+                  <a href="https://github.com/tomas/needle">needle</a> - Nimble,
+                  streamable HTTP client for Node.js. With proxy, iconv, cookie,
+                  deflate &amp; multipart support
+               </li>
+            </ul>
+            <h2 id="web-scraping-frameworks">Web-Scraping Frameworks</h2>
+            <ul>
+               <li>
+                  <a href="https://github.com/joseconstela/webparsy"
+                     >webparsy</a
+                  >
+                  - NodeJS lib and cli for scraping websites using Puppeteer and
+                  YAML
+               </li>
+               <li>
+                  <a href="https://github.com/sylvinus/node-crawler"
+                     >node-crawler</a
+                  >
+                  - Web Crawler/Spider for NodeJS + server-side jQuery
+               </li>
+               <li>
+                  <a href="https://github.com/cgiffard/node-simplecrawler"
+                     >node-simplecrawler</a
+                  >
+                  - Flexible event driven crawler for node
+               </li>
+               <li>
+                  <a href="https://github.com/apify/crawlee">Crawlee</a> -
+                  Node.js and TypeScript library that crawls with Cheerio,
+                  JSDOM, Playwright and Puppeteer while enhancing them with
+                  anti-blocking features, queue, storages and more.
+               </li>
+               <li>
+                  <a href="https://github.com/ayakashi-io/ayakashi">Ayakashi</a>
+                  - The next generation web scraping framework. Features all the
+                  necessary tools to create reliable and maintainable scraping
+                  and automation systems.
+               </li>
+               <li>
+                  <a href="https://github.com/nrabinowitz/pjscrape">pjscrape</a>
+                  - A web-scraping framework written in Javascript, using
+                  PhantomJS and jQuery
+               </li>
+            </ul>
+            <h2 id="html-xml-parsing">HTML/XML Parsing</h2>
+            <ul>
+               <li>
+                  General
+                  <ul>
+                     <li>
+                        <a href="https://github.com/inikulin/parse5">parse5</a>
+                        - WHATWG HTML5 specification-compliant, fast and ready
+                        for production HTML parsing/serialization toolset for
+                        Node and io.js
+                     </li>
+                     <li>
+                        <a href="https://github.com/fb55/htmlparser2"
+                           >htmlparser2</a
+                        >
+                        - forgiving html and xml parser
+                     </li>
+                     <li>
+                        <a href="https://github.com/isaacs/sax-js">sax-js</a> -
+                        A sax style parser for JS
+                     </li>
+                     <li>
+                        <a href="https://github.com/cheeriojs/cheerio"
+                           >cheerio</a
+                        >
+                        - Fast, flexible, and lean implementation of core jQuery
+                        designed specifically for the server
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  Sanitizing
+                  <ul>
+                     <li>
+                        <a href="https://github.com/leizongmin/js-xss"
+                           >js-xss</a
+                        >
+                        - Sanitize untrusted HTML (to prevent XSS) with a
+                        configuration specified by a Whitelist.
+                     </li>
+                     <li>
+                        <a href="https://github.com/gajus/surgeon">surgeon</a> -
+                        Declarative DOM extraction expression evaluator
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+            <h2 id="text-processing">Text Processing</h2>
+            <p><em>Libraries for parsing and manipulating plain texts.</em></p>
+            <ul>
+               <li>
+                  General
+                  <ul>
+                     <li>
+                        <a href="https://github.com/jprichardson/string.js"
+                           >string.js</a
+                        >
+                        - Extra JavaScript string methods.
+                     </li>
+                     <li>
+                        <a
+                           href="https://github.com/openexchangerates/accounting.js"
+                           >accounting.js</a
+                        >
+                        - A lightweight JavaScript library for number, money and
+                        currency formatting - fully localisable, zero
+                        dependencies.
+                     </li>
+                     <li>
+                        <a href="https://github.com/chriso/validator.js"
+                           >validator.js</a
+                        >
+                        - String validation and sanitization.
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  Date and time
+                  <ul>
+                     <li>
+                        <a href="https://github.com/moment/moment">moment</a> -
+                        Parse, validate, manipulate, and display dates in
+                        javascript.
+                        <ul>
+                           <li>
+                              <a
+                                 href="https://github.com/moment/moment-timezone"
+                                 >moment-timezone</a
+                              >
+                              - Timezone support for moment.js.
+                           </li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a href="https://github.com/MatthewMueller/date"
+                           >date</a
+                        >
+                        - Date() for humans.
+                     </li>
+                     <li>
+                        <a href="https://github.com/guille/ms.js">ms.js</a> -
+                        Tiny millisecond conversion utility.
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  HTML entities
+                  <ul>
+                     <li>
+                        <a href="https://github.com/mathiasbynens/he">he</a> - A
+                        robust HTML entity encoder/decoder written in
+                        JavaScript.
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  Money
+                  <ul>
+                     <li>
+                        <a href="https://github.com/openexchangerates/money.js"
+                           >money.js</a
+                        >
+                        - Simple and tiny JavaScript library for realtime
+                        currency conversion and exchange rate calculation, from
+                        any currency, to any currency.
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  Color
+                  <ul>
+                     <li>
+                        <a href="https://github.com/gka/chroma.js">chroma.js</a>
+                        - JavaScript library for all kinds of color
+                        manipulations.
+                     </li>
+                     <li>
+                        <a href="https://github.com/harthur/color">color</a> -
+                        JavaScript color conversion and manipulation library.
+                     </li>
+                     <li>
+                        <a href="https://github.com/bgrins/TinyColor"
+                           >TinyColor</a
+                        >
+                        - Fast, small color manipulation and conversion for
+                        JavaScript.
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  User Agent
+                  <ul>
+                     <li>
+                        <a href="https://github.com/faisalman/ua-parser-js"
+                           >UAParser.js</a
+                        >
+                        - Lightweight JavaScript-based User-Agent string parser.
+                        Supports browser &amp; node.js environment.
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  Semantic Version
+                  <ul>
+                     <li>
+                        <a href="https://github.com/npm/node-semver"
+                           >node-semver</a
+                        >
+                        - The semver parser for node
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+            <h2 id="specific-formats-processing">
+               Specific Formats Processing
+            </h2>
+            <p>
+               <em
+                  >Libraries for parsing and manipulating specific text
+                  formats.</em
+               >
+            </p>
+            <ul>
+               <li>
+                  General
+                  <ul>
+                     <li>
+                        <a href="https://github.com/jDataView/jBinary"
+                           >jBinary</a
+                        >
+                        - High-level I/O (loading, parsing, manipulating,
+                        serializing, saving) for binary files with declarative
+                        syntax for describing file types and data structures.
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  Office
+                  <ul>
+                     <li>
+                        <a href="https://github.com/SheetJS/js-xlsx">js-xlsx</a>
+                        - XLSX / XLSM / XLSB / XLS / SpreadsheetML (Excel
+                        Spreadsheet) / ODS parser and writer
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  CSV
+                  <ul>
+                     <li>
+                        <a href="https://github.com/Rich-Harris/BabyParse"
+                           >BabyParse</a
+                        >
+                        - Fast and reliable CSV parser based on Papa Parse. Papa
+                        Parse is for the browser, Baby Parse is for Node.js.
+                     </li>
+                     <li>
+                        <a href="https://github.com/knrz/CSV.js">CSV</a> - A
+                        simple, blazing-fast CSV parser and encoder. Full RFC
+                        4180 compliance.
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  JSON
+                  <ul>
+                     <li>
+                        <a href="https://github.com/bestiejs/json3">json3</a> -
+                        A modern JSON implementation compatible with nearly all
+                        JavaScript platforms.
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  EXIF
+                  <ul>
+                     <li>
+                        <a href="https://github.com/exif-js/exif-js">exif-js</a>
+                        - JavaScript library for reading EXIF image metadata
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  CSS
+                  <ul>
+                     <li>
+                        <a href="https://github.com/tabatkins/parse-css"
+                           >parse-css</a
+                        >
+                        - Standards-based CSS Parser
+                     </li>
+                     <li>
+                        <a href="https://github.com/CSSLint/parser-lib"
+                           >parser-lib CSS parser</a
+                        >
+                        - The ParserLib CSS parser is a CSS3 SAX-inspired parser
+                        written in JavaScript. By default, the parser only deals
+                        with standard CSS syntax and doesn&#39;t do validation
+                        (checking of property names and values).
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  Torrent
+                  <ul>
+                     <li>
+                        <a href="https://github.com/feross/parse-torrent"
+                           >parse-torrent</a
+                        >
+                        - Parse a torrent identifier (magnet uri, .torrent file,
+                        info hash)
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  SQL
+                  <ul>
+                     <li>
+                        <a href="https://github.com/forward/sql-parser"
+                           >SQL Parser</a
+                        >
+                        - SQL Parser is a lexer, grammar and parser for SQL
+                        written in JS. Currently it is only capable of parsing
+                        fairly basic SELECT queries.
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  YAML
+                  <ul>
+                     <li>
+                        <a href="https://github.com/nodeca/js-yaml">JS-YAML</a>
+                        - JavaScript YAML parser and dumper. Very fast.
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  Markdown
+                  <ul>
+                     <li>
+                        <a href="https://github.com/markdown-it/markdown-it"
+                           >markdown-it</a
+                        >
+                        - Markdown parser, done right. 100% CommonMark support,
+                        extensions, syntax plugins &amp; high speed
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  Atom/RSS
+                  <ul>
+                     <li>
+                        <a href="https://github.com/danmactough/node-feedparser"
+                           >node-feedparser</a
+                        >
+                        - Robust RSS, Atom, and RDF feed parsing in Node.js
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  Netscape Bookmarks(Firefox, Google Chrome, ...)
+                  <ul>
+                     <li>
+                        <a
+                           href="https://github.com/calibr/node-bookmarks-parser"
+                           >node-bookmarks-parser</a
+                        >
+                        - Parses Firefox/Chrome HTML bookmarks files
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+            <h2 id="natural-language-processing">
+               Natural Language Processing
+            </h2>
+            <p><em>Libraries for working with human languages.</em></p>
+            <ul>
+               <li>
+                  General
+                  <ul>
+                     <li>
+                        <a href="https://github.com/NaturalNode/natural"
+                           >natural</a
+                        >
+                        - general natural language facilities for node
+                     </li>
+                     <li>
+                        <a
+                           href="https://github.com/spencermountain/nlp_compromise"
+                           >nlp_compromise</a
+                        >
+                        - natural language processing
+                     </li>
+                     <li>
+                        <a href="https://github.com/nieldlr/Hanzi">Hanzi</a> -
+                        HanziJS is a Chinese character and NLP module for
+                        Chinese language processing for Node.js
+                     </li>
+                     <li>
+                        <a href="https://github.com/nyxtom/salient">salient</a>
+                        - Machine Learning, Natural Language Processing and
+                        Sentiment Analysis Toolkit for Node.js
+                     </li>
+                     <li>
+                        <a href="https://github.com/jbrooksuk/node-summary"
+                           >node-summary</a
+                        >
+                        - Node module that summarizes text using a naive
+                        summarization algorithm
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  Stemmer
+                  <ul>
+                     <li>
+                        <a href="https://github.com/fortnightlabs/snowball-js"
+                           >snowball-js</a
+                        >
+                        - javascript implementation of the popular snowball word
+                        stemming nlp algorithm
+                     </li>
+                     <li>
+                        <a href="https://github.com/jedp/porter-stemmer"
+                           >porter-stemmer</a
+                        >
+                        - Martin Porter&#39;s stemmer for node.js
+                     </li>
+                     <li>
+                        <a href="https://github.com/kristopolous/Porter-Stemmer"
+                           >Porter-Stemmer</a
+                        >
+                        - A Javascript Implementation of the Porter Stemmer
+                     </li>
+                     <li>
+                        <a
+                           href="https://github.com/MihaiValentin/lunr-languages"
+                           >lunr-languages</a
+                        >
+                        - a collection of languages stemmers and stopwords for
+                        Lunr Javascript library
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  Language detection
+                  <ul>
+                     <li>
+                        <a href="https://github.com/wooorm/franc">franc</a> -
+                        Natural language detection
+                     </li>
+                     <li>
+                        <a href="https://github.com/richtr/guessLanguage.js"
+                           >guessLanguage.js</a
+                        >
+                        - A natural language detection library based on trigram
+                        statistical analysis for Node.js
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+            <h2 id="browser-automation-and-emulation">
+               Browser automation and emulation
+            </h2>
+            <ul>
+               <li>
+                  <a href="https://github.com/ariya/phantomjs">phantomjs</a> -
+                  Scriptable Headless WebKit.
+               </li>
+               <li>
+                  <a href="https://github.com/laurentj/slimerjs">slimerjs</a> -
+                  A PhantomJS-like tool running Gecko.
+               </li>
+               <li>
+                  <a href="https://github.com/n1k0/casperjs">casperjs</a> -
+                  Navigation scripting &amp; testing utility for PhantomJS and
+                  SlimerJS.
+               </li>
+               <li>
+                  <a href="https://github.com/assaf/zombie">zombie</a> -
+                  Insanely fast, full-stack, headless browser testing using
+                  node.js.
+               </li>
+               <li>
+                  <a href="https://github.com/segmentio/nightmare">nightmare</a>
+                  - Nightmare is a high level wrapper for PhantomJS that lets
+                  you automate browser tasks
+               </li>
+               <li>
+                  <a href="https://github.com/GoogleChrome/puppeteer"
+                     >puppeteer</a
+                  >
+                  - Puppeteer is a Node library which provides a high-level API
+                  to control headless Chrome or Chromium over the DevTools
+                  Protocol. It can also be configured to use full (non-headless)
+                  Chrome or Chromium.
+               </li>
+               <li>
+                  <a href="https://github.com/yujiosaka/headless-chrome-crawler"
+                     >headless-chrome-crawler</a
+                  >
+                  - Distributed crawler powered by Headless Chrome
+               </li>
+               <li>
+                  <a href="https://github.com/checkly/puppeteer-recorder"
+                     >puppeteer-recorder</a
+                  >
+                  - Puppeteer recorder is a Chrome extension that records your
+                  browser interactions and generates a Puppeteer script.
+               </li>
+               <li>
+                  <a href="https://github.com/angrykoala/wendigo">wendigo</a> -
+                  Test-oriented headless browser, built on top of Puppeteer.
+               </li>
+               <li>
+                  <a href="https://github.com/microsoft/playwright"
+                     >Playwright</a
+                  >
+                  - Node.js library to automate Chromium, Firefox and WebKit
+                  with a single API
+               </li>
+            </ul>
+            <h2 id="multiprocessing">Multiprocessing</h2>
+            <ul>
+               <li>
+                  <a href="https://github.com/nodejitsu/nexpect">nexpect</a> -
+                  spawn and control child processes in node.js with ease
+               </li>
+               <li>
+                  <a href="https://github.com/mafintosh/respawn">respawn</a> -
+                  Spawn a process and restart it if it crashes
+               </li>
+               <li>
+                  <a href="https://github.com/pgriess/node-webworker"
+                     >node-webworker</a
+                  >
+                  - A WebWorkers implementation for NodeJS
+               </li>
+            </ul>
+            <h2 id="asynchronous">Asynchronous</h2>
+            <p><em>Libraries for asynchronous networking programming.</em></p>
+            <ul>
+               <li>
+                  <a href="https://github.com/socketio/socket.io">socket.io</a>
+                  - Realtime application framework (Node.JS server)
+               </li>
+               <li>
+                  <a href="https://github.com/socketio/engine.io">engine.io</a>
+                  - Engine.IO is the implementation of transport-based
+                  cross-browser/cross-device bi-directional communication layer
+                  for Socket.IO
+               </li>
+               <li>
+                  <a href="https://github.com/caolan/async">async</a> - Async
+                  utilities for node and the browser
+               </li>
+            </ul>
+            <h2 id="queue">Queue</h2>
+            <ul>
+               <li>
+                  <a href="https://github.com/Automattic/kue">kue</a> - Kue is a
+                  priority job queue backed by redis, built for node.js
+               </li>
+               <li>
+                  <a href="https://github.com/OptimalBits/bull">bull</a> - A
+                  lightweight, robust and fast job processing queue. Carefully
+                  written for rock solid stability and atomicity.
+               </li>
+            </ul>
+            <h2 id="email">Email</h2>
+            <p><em>Libraries for parsing email.</em></p>
+            <ul>
+               <li>
+                  <a href="https://github.com/andris9/mailparser">mailparser</a>
+                  - Decode mime formatted e-mails
+               </li>
+            </ul>
+            <h2 id="url-and-network-address-manipulation">
+               URL and Network Address Manipulation
+            </h2>
+            <p>
+               <em
+                  >Libraries for parsing/modifying URLs and network
+                  addresses.</em
+               >
+            </p>
+            <ul>
+               <li>
+                  URL
+                  <ul>
+                     <li>
+                        <a href="https://github.com/sindresorhus/query-string"
+                           >query-string</a
+                        >
+                        - Parse and stringify URL query strings.
+                     </li>
+                     <li>
+                        <a href="https://github.com/medialize/URI.js/"
+                           >URI.js</a
+                        >
+                        - Javascript URL mutation library.
+                     </li>
+                     <li>
+                        <a href="https://github.com/Mikhus/jsurl">jsurl</a> -
+                        Lightweight URL manipulation with JavaScript.
+                     </li>
+                     <li>
+                        <a href="https://github.com/stretchr/arg.js">arg.js</a>
+                        - Lightweight URL argument and parameter parser
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  Network Address
+                  <ul>
+                     <li>
+                        <a href="https://github.com/indutny/node-ip">node-ip</a>
+                        - IP address tools for node.js
+                     </li>
+                     <li>
+                        <a href="https://github.com/beaugunderson/ip-address"
+                           >ip-address</a
+                        >
+                        - A library for parsing and manipulating IPv6 (and v4)
+                        addresses in JavaScript
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+            <h2 id="web-content-extracting">Web Content Extracting</h2>
+            <p><em>Libraries for extracting web contents.</em></p>
+            <ul>
+               <li>
+                  <a href="https://github.com/bndr/node-read">node-read</a> -
+                  Get Readable Content from any page. Based on Arc90&#39;s
+                  readability project using cheerio engine.
+               </li>
+               <li>
+                  <a href="https://github.com/fent/node-ytdl-core"
+                     >node-ytdl-core</a
+                  >
+                  - Youtube video downloader in javascript
+               </li>
+               <li>
+                  <a href="https://github.com/mauricesvay/ImageResolver"
+                     >ImageResolver</a
+                  >
+                  - Does its best to determine the main image on a URL without
+                  loading all images.
+               </li>
+            </ul>
+            <h2 id="websocket">WebSocket</h2>
+            <p><em>Libraries for working with WebSocket.</em></p>
+            <ul>
+               <li>
+                  <a href="https://github.com/LearnBoost/websocket.io"
+                     >websocket.io</a
+                  >
+                  - WebSocket.IO is an abstraction of the websocket server
+                  previously used by Socket.IO. It has the broadest support for
+                  websocket protocol/specifications and an API that allows for
+                  interoperability with higher-level frameworks such as Engine,
+                  Socket.IO&#39;s realtime core.
+               </li>
+               <li>
+                  <a href="https://github.com/theturtle32/WebSocket-Node"
+                     >WebScoket-Node</a
+                  >
+                  - A WebSocket Implementation for Node.JS (Draft -08 through
+                  the final RFC 6455)
+               </li>
+            </ul>
+            <h2 id="dns-resolving">DNS Resolving</h2>
+            <ul>
+               <li>
+                  <a href="https://github.com/mafintosh/multicast-dns"
+                     >multicast-dns</a
+                  >
+                  - Low level multicast-dns implementation in pure javascript
+               </li>
+               <li>
+                  <a href="https://github.com/tjfontaine/node-dns">node-dns</a>
+                  - Replacement dns module in pure javascript for node.js
+               </li>
+            </ul>
+            <h2 id="computer-vision">Computer Vision</h2>
+            <ul>
+               <li>
+                  <a href="https://github.com/eduardolundgren/tracking.js"
+                     >tracking.js</a
+                  >
+                  - A modern approach for Computer Vision on the web.
+               </li>
+               <li>
+                  <a href="https://github.com/antimatter15/ocrad.js"
+                     >ocrad.js</a
+                  >
+                  - OCR in Javascript via Emscripten.
+               </li>
+            </ul>
+            <h2 id="proxy-server">Proxy Server</h2>
+            <ul>
+               <li>
+                  <a href="https://github.com/h2non/toxy">toxy</a> - Hackable
+                  HTTP proxy to simulate server failure scenarios and unexpected
+                  network conditions
+               </li>
+               <li>
+                  <a href="https://github.com/apifytech/proxy-chain"
+                     >proxy-chain</a
+                  >
+                  - Node.js implementation of a proxy server (think Squid) with
+                  support for SSL, authentication and upstream proxy chaining
+               </li>
+            </ul>
+            <h2 id="data-structure">Data Structure</h2>
+            <ul>
+               <li>
+                  <a href="https://github.com/facebook/immutable-js"
+                     >immutable</a
+                  >
+                  - Immutable persistent data collections for Javascript which
+                  increase efficiency and simplicity.
+               </li>
+               <li>
+                  <a href="https://github.com/lodash/lodash">lodash</a> - More
+                  consistent cross-environment iteration support for arrays,
+                  strings, objects, and arguments objects
+               </li>
+            </ul>
+            <h2 id="other-javascript-lists">Other JavaScript lists</h2>
+            <ul>
+               <li>
+                  <a href="https://github.com/sorrycc/awesome-javascript"
+                     >awesome-javascript</a
+                  >
+               </li>
+            </ul>
+         </div>
       </main>
    </body>
 </html>
