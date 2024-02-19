@@ -55,7 +55,7 @@ If you want to perform JavaScript web scraping, there is a simple process to fol
 
 However, it’s important to remember that most steps depend on the execution of the previous step. For instance, you can only load a page once the browser tab is open. Thus, you need to take this into account in your code.
 
-![javascript scraping process chart](image-link-here)
+![javascript scraping process chart](images/javascript_scraping_process_chart.png)
 
 This entire workflow can be summarized in 4 steps:
 
@@ -79,8 +79,6 @@ Let’s start with this code:
 ```javascript
 const puppeteer = require("puppeteer");
 ```
-
-````
 
 This line loads the Puppeteer library.
 
@@ -395,4 +393,7 @@ scrape();
 Today you learned how you can perform web scraping with JavaScript and Node.js. We went from the simple questions, such as picking the right tool, to the exact functions you can use to scrape pages without getting blocked.
 
 You saw how you could use this knowledge not just to scrape pages but automate tasks by interacting with your target pages programmatically. We hope you enjoyed it, and see you again next time!
-````
+
+```
+
+```
