@@ -1,11 +1,6 @@
-Certainly! Below is the content of the article converted into a Markdown (.md) file:
-
-````markdown
 # Web Scraping With JavaScript and Node.js Without Getting Blocked
 
 ![web-scraping-without-getting-blocked](images/thumbnail.png)
-
-## How to
 
 Web scraping with JavaScript and Node.js is a great idea. It allows you to collect data from sites even if they rely on modern practices such as dynamically loading page components.
 
@@ -84,6 +79,7 @@ Let’s start with this code:
 ```javascript
 const puppeteer = require("puppeteer");
 ```
+
 ````
 
 This line loads the Puppeteer library.
@@ -399,3 +395,4 @@ scrape();
 Today you learned how you can perform web scraping with JavaScript and Node.js. We went from the simple questions, such as picking the right tool, to the exact functions you can use to scrape pages without getting blocked.
 
 You saw how you could use this knowledge not just to scrape pages but automate tasks by interacting with your target pages programmatically. We hope you enjoyed it, and see you again next time!
+````
