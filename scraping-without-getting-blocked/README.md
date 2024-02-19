@@ -3,7 +3,7 @@ Certainly! Below is the content of the article converted into a Markdown (.md) f
 ````markdown
 # Web Scraping With JavaScript and Node.js Without Getting Blocked
 
-![web-scraping-without-getting-blocked](images/Web%20Scraping%20%20Without%20Getting%20Blocked.png)
+![web-scraping-without-getting-blocked](images/thumbnail.png)
 
 ## How to
 
